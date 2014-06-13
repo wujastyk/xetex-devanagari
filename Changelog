@@ -1,0 +1,36 @@
+xetex-devanagari (0.5) UNRELEASED; urgency=low
+
+  * improved Readme and Makefile.
+  * added tests.
+  * harvardkyoto.map and iast.map:
+    + fixed end-of-word-Virāma (manual Virāma dropped).
+    + added "+" (U+002B) as ligature breaker.
+    + straightened the code (e.g. changed to direct mapping where possible).
+    + added support for abbreviation (U+0970).
+  * harvardkyoto.map:
+    + dropped Hindi support.
+  * iast.map:
+    + added proper header.
+    + removed German comments.
+    + aligned definition sequence according to harvardkyoto.map.
+
+ -- Daniel Stender <danieldanielstender.com>  Fri, 13 Jun 2014 19:30:17 +0200
+
+xetex-devanagari (0.4) released; urgency=low
+
+  * added velthuis.map, velthuis-sanskrit.map and devanagari-numerals.map
+    from the velthuis packet (thanks to Zdeněk Wagner).
+  * removed versioning from harvardkyoto.map.
+
+ -- Daniel Stender <daniel@danielstender.com>  Thu, 21 Jul 2011 11:51:28 +0200
+
+xetex-devanagari (0.3) released; urgency=low
+
+  * changed revision numbering (0.2 was 0.99a).
+  * created changelog.
+  * harvardkyoto.map: ॐ (U+0950) is now reached through "OM".
+  * iast.map: changed input entity for "vocalic long r" from <U+1E5B U+0304>
+    (with combined mark) to U+1E5D (LATIN SMALL LETTER R WITH DOT BELOW
+    AND MACRON).
+
+ -- Daniel Stender <daniel@danielstender.com>  Fri, 08 Jul 2011 15:51:49 +0200
