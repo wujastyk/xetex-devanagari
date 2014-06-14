@@ -64,7 +64,7 @@ Usage like:
 \documentclass{article}
 
 \usepackage{fontspec}
-\setmainfont[Script=Devanagari,Mapping=../tec/velthuis-sanskrit]{Sanskrit 2003}
+\setmainfont[Script=Devanagari,Mapping=velthuis-sanskrit]{Sanskrit 2003}
 
 \catcode`\~=12
 
@@ -99,7 +99,7 @@ Usage like:
 \documentclass{article}
 
 \usepackage{fontspec}
-\setmainfont[Script=Devanagari,Mapping=../tec/velthuis]{Nakula}
+\setmainfont[Script=Devanagari,Mapping=velthuis]{Nakula}
 
 \catcode`\~=12
 	
@@ -145,7 +145,7 @@ Usage like:
 \documentclass[12pt]{article}
 
 \usepackage{fontspec}
-\setmainfont[Script=Devanagari,Mapping=../tec/harvardkyoto]{Sanskrit 2003}
+\setmainfont[Script=Devanagari,Mapping=harvardkyoto]{Sanskrit 2003}
 
 \setlength\parindent{0pt}
 
@@ -189,7 +189,7 @@ Usage like:
 \documentclass{article}
 
 \usepackage{fontspec}
-\setmainfont[Script=Devanagari,Mapping=../tec/iast]{Sanskrit 2003}
+\setmainfont[Script=Devanagari,Mapping=iast]{Sanskrit 2003}
 
 \setlength\parindent{0pt}
 

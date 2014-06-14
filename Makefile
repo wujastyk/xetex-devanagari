@@ -13,6 +13,7 @@ test:
 doc:
 	filepp -DREGEXP=/\{version\}/$(VERSION)/ -m regexp.pm -Itest -kc § -lc % -dl -o Readme.md misc/Readme.pre.md
 	rm -rf Readme.md~
+	sed -i 's/..\/tec\///' Readme.md
 
 ctan:doc
 	pandoc -t plain -o README Readme.md
