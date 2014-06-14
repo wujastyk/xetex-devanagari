@@ -5,7 +5,7 @@ Xetex-devanagari (1,2) are input mappings (*.tec) for convenient LaTeX typesetti
 (1) <http://www.ctan.org/tex-archive/macros/xetex/generic/devanagari>
 (2) <https://github.com/danstender/xetex-devanagari>
 (3) <http://www.unicode.org/charts/PDF/U0900.pdf>
-(4) http://www.unicode.org/versions/Unicode6.2.0/ch09.pdf
+(4) <http://www.unicode.org/versions/Unicode6.2.0/ch09.pdf>
 (5) <http://en.wikipedia.org/wiki/Xetex>
 
 Their sources (*.map) are to be compiled with the TECkit (6).
@@ -123,10 +123,26 @@ Usage like:
 
 # iast.map
 
-Input coding includes Unicode entities
-representing the IAST:
+Input coding includes Unicode entities representing
+the International Alphabet of Sanskrit Transliteration (IAST):
 
-* ā ī ū ṛ ṝ (1E5D) ḷ ṅ ñ ṭ ḍ ṇ ś ṣ ṃ ḥ
+Entity | Hex
+------ | ------
+ā      | U+0101 
+ī      | U+012B
+ū      | U+016B
+ṛ      | U+1E5B
+ṝ      | U+1E5D
+ḷ      | U+1E37
+ṅ      | U+1E45
+ñ      | U+00F1
+ṭ      | U+1E6D
+ḍ      | U+1E0D
+ṇ      | U+1E47
+ś      | U+015B
+ṣ      | U+1E63
+ṃ      | U+1E43
+ḥ      | U+1E25
 
 Usage like:
 
