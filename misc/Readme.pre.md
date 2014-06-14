@@ -1,4 +1,4 @@
-# xetex-devanagari {version}
+B1;3602;0c# xetex-devanagari {version}
 
 Xetex-devanagari (1,2) are input mappings (*.tec) for convenient LaTeX typesetting of simple Unicode Devanagari (0900-097F, 3,4) with the PDF-engine XeTeX (5).
 
@@ -54,9 +54,9 @@ uu    | ū
 @     | °
 +     | ligature breaking
 
-For a complete list of Velthuis input scheme cf. the manual of the Velthuis packet (10), p. 6.
+For a complete list of Velthuis input scheme cf. the manual of the Velthuis packet (10).
 
-(10) <http://mirrors.ctan.org/language/devanagari/velthuis/doc/generic/velthuis/manual.pdf>
+(10) <http://mirrors.ctan.org/language/devanagari/velthuis/doc/generic/velthuis/manual.pdf#page=6>
 
 Usage like:
 
