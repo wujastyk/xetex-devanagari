@@ -9,9 +9,9 @@ xetex-devanagari (0.5) released; urgency=low
   * improved Readme and Makefile.
   * added tests.
   * harvardkyoto.map and iast.map:
-    + fixed end-of-word-Virāma (manual Virāma dropped).
+    + fixed end-of-block-Virāma (manual Virāma dropped).
     + added "+" (U+002B) as ligature breaker.
-    + straightened the code (e.g. changed to direct mapping where possible).
+    + straightened the code (e.g. direct mapping).
     + added support for abbreviation (U+0970).
   * harvardkyoto.map:
     + dropped Hindi support.
