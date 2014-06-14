@@ -1,4 +1,10 @@
-xetex-devanagari (0.5) UNRELEASED; urgency=low
+xetex-devanagari (0.6) UNRELEASED; urgency=medium
+
+  * improved Readme.
+
+ -- Daniel Stender <daniel@danielstender.com>  Sat, 14 Jun 2014 09:34:30 +0200
+
+xetex-devanagari (0.5) released; urgency=low
 
   * improved Readme and Makefile.
   * added tests.
