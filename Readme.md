@@ -54,9 +54,9 @@ uu    | ū
 @     | °
 +     | ligature breaking
 
-For a complete list of Velthuis input scheme cf. the manual of the Velthuis packet (10), p. 6.
+For a complete list of Velthuis input scheme cf. the manual of the Velthuis packet (10).
 
-(10) <http://mirrors.ctan.org/language/devanagari/velthuis/doc/generic/velthuis/manual.pdf>
+(10) <http://mirrors.ctan.org/language/devanagari/velthuis/doc/generic/velthuis/manual.pdf#page=6>
 
 Usage like:
 

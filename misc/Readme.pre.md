@@ -1,4 +1,4 @@
-B1;3602;0c# xetex-devanagari {version}
+# xetex-devanagari {version}
 
 Xetex-devanagari (1,2) are input mappings (*.tec) for convenient LaTeX typesetting of simple Unicode Devanagari (0900-097F, 3,4) with the PDF-engine XeTeX (5).
 
