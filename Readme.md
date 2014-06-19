@@ -28,7 +28,7 @@ Since "~" expands to nonbreakable space it's important to set *\catcode`\~=12* i
 
 (9) <http://cikitsa.blogspot.com/2010/09/xelatex-velthuis-encoding-and-palatal.html>
 
-## *velthuis-sanskrit.map* (for Sanskrit)
+## *velthuis-sanskrit.tec* (for Sanskrit)
 
 Input encoding includes:
 
@@ -78,7 +78,7 @@ kaalakuu.tavi.saspar"sajaatamuurcchaagamaamiva || 2 ||
 \end{document}
 ~~~
 
-## *velthuis.map* (for Hindi)
+## *velthuis.tec* (for Hindi)
 
 Input encoding includes:
 
@@ -109,7 +109,7 @@ use nikaalane ke lie samudr ko mathanaa caahate the |
 \end{document}
 ~~~
 
-# harvardkyoto.map
+# harvardkyoto.tec
 
 Input coding includes (asterisk marks non-standard):
 
@@ -160,7 +160,7 @@ hotA!raM ratna-dhA!tamaM || 1.1.1 ||
 \end{document}
 ~~~
 
-# iast.map
+# iast.tec
 
 Input coding includes Unicode entities representing
 the International Alphabet of Sanskrit Transliteration (IAST):

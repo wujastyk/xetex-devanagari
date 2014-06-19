@@ -28,7 +28,7 @@ Since "~" expands to nonbreakable space it's important to set *\catcode`\~=12* i
 
 (9) <http://cikitsa.blogspot.com/2010/09/xelatex-velthuis-encoding-and-palatal.html>
 
-## *velthuis-sanskrit.map* (for Sanskrit)
+## *velthuis-sanskrit.tec* (for Sanskrit)
 
 Input encoding includes:
 
@@ -64,7 +64,7 @@ Usage like:
 §include velthuis.tex
 ~~~
 
-## *velthuis.map* (for Hindi)
+## *velthuis.tec* (for Hindi)
 
 Input encoding includes:
 
@@ -85,7 +85,7 @@ Usage like:
 §include velthuis-hindi.tex
 ~~~
 
-# harvardkyoto.map
+# harvardkyoto.tec
 
 Input coding includes (asterisk marks non-standard):
 
@@ -121,7 +121,7 @@ Usage like:
 §include harvardkyoto.tex
 ~~~
 
-# iast.map
+# iast.tec
 
 Input coding includes Unicode entities representing
 the International Alphabet of Sanskrit Transliteration (IAST):
