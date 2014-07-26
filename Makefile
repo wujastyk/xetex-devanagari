@@ -18,7 +18,7 @@ doc:
 ctan:doc
 	pandoc -t plain -o README Readme.md
 	rm -rf $(ZIP)
-	zip -j $(ZIP) map/* tec/* README Changelog
+	zip -j $(ZIP) map/* tec/* README Changelog misc/README.RomDev.map
 
 clean:
 	make -C test clean
