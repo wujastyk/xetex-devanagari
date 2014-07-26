@@ -1,8 +1,9 @@
 xetex-devanagari (0.6) UNRELEASED; urgency=low
 
+  * included RomDev.map 0.3 (thanks to Somadeva Vasudeva).
   * improved Readme.
 
- -- Daniel Stender <daniel@danielstender.com>  Sat, 14 Jun 2014 09:34:30 +0200
+ -- Daniel Stender <daniel@danielstender.com>  Sat, 26 Jul 2014 12:21:10 +0200
 
 xetex-devanagari (0.5) released; urgency=low
 

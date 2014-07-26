@@ -201,3 +201,7 @@ kālakūṭaviṣasparśajātamūrcchāgamāmiva || 2 ||
 \end{document}
 ~~~
 
+# RomDev.tec
+
+Alternative romanized input map (version 0.3). Thanks to Somadeva Vasudeva.
+

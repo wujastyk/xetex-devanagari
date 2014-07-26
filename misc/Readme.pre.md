@@ -150,3 +150,7 @@ Usage like:
 §include iast.tex
 ~~~
 
+# RomDev.tec
+
+Alternative romanized input map (version 0.3). Thanks to Somadeva Vasudeva.
+
