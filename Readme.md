@@ -120,7 +120,7 @@ I     | ī
 U     | ū 
 R     | ṛ
 RR    | ṝ
-L*    | ḷ
+L     | ḷ
 G     | ṅ
 J     | ñ 
 T     | ṭ 
@@ -203,5 +203,6 @@ kālakūṭaviṣasparśajātamūrcchāgamāmiva || 2 ||
 
 # RomDev.tec
 
-Alternative romanized input map (version 0.3). Thanks to Somadeva Vasudeva.
+Alternative romanized Sanskrit input map (version 0.3, 11). Thanks to Somadeva Vasudeva.
 
+(11) <https://github.com/somadeva/RomDev>
