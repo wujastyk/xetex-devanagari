@@ -152,6 +152,6 @@ Usage like:
 
 # RomDev.tec
 
-Alternative romanized input map (version 0.3, 11). Thanks to Somadeva Vasudeva.
+Alternative romanized Sanskrit input map (version 0.3, 11). Thanks to Somadeva Vasudeva.
 
 (11) <https://github.com/somadeva/RomDev>
