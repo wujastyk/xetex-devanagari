@@ -1,22 +1,22 @@
 # xetex-devanagari {version}
 
 Xetex-devanagari
-[1](http://www.ctan.org/tex-archive/macros/xetex/generic/devanagari)
-[2](https://github.com/danstender/xetex-devanagari)
+[[1](http://www.ctan.org/tex-archive/macros/xetex/generic/devanagari)]
+[[2](https://github.com/danstender/xetex-devanagari)]
 are input mappings (*.tec)
 for convenient LaTeX typesetting
 of simple Unicode Devanagari (0900-097F)
-[3](http://www.unicode.org/charts/PDF/U0900.pdf)
-[4](http://en.wikipedia.org/wiki/Xetex)
+[[3](http://www.unicode.org/charts/PDF/U0900.pdf)]
+[[4](http://en.wikipedia.org/wiki/Xetex)]
 with the PDF-engine XeTeX
-[5](http://en.wikipedia.org/wiki/Xetex).
+[[5](http://en.wikipedia.org/wiki/Xetex)].
 
 Their sources (*.map)
 are to be compiled with the TECkit
-[6](http://scripts.sil.org/TECkit).
+[[6](http://scripts.sil.org/TECkit)].
 
 The maps are maintained by Daniel Stender
-[7](http://www.danielstender.com/blog/>)
+[[7](http://www.danielstender.com/blog/>)]
 please send hints and report problems to: <daniel@danielstender.com>.
 
 # Velthuis maps
@@ -25,7 +25,7 @@ please send hints and report problems to: <daniel@danielstender.com>.
 *velthuis-sanskrit.map*,
 and *devanagarinumerals.map*
 are taken over from the Velthuis packet
-[8](http://www.ctan.org/tex-archive/language/devanagari/velthuis)
+[[8](http://www.ctan.org/tex-archive/language/devanagari/velthuis)]
 much thanks to Zdeněk Wagner.
 
 *devanagarinumerals.tec*
@@ -35,7 +35,7 @@ applications like Xindy could work with the original Arabic numbering).
 
 Since "~" expands to nonbreakable space it's important
 to set *\catcode`\~=12* in the preamble
-[9](http://cikitsa.blogspot.com/2010/09/xelatex-velthuis-encoding-and-palatal.html).
+[[9](http://cikitsa.blogspot.com/2010/09/xelatex-velthuis-encoding-and-palatal.html)].
 
 ## *velthuis-sanskrit.tec* (for Sanskrit)
 
@@ -65,7 +65,7 @@ uu    | ū
 
 For a complete list of Velthuis input scheme
 see cf. the manual of the Velthuis packet
-[10](http://mirrors.ctan.org/language/devanagari/velthuis/doc/generic/velthuis/manual.pdf#page=6).
+[[10](http://mirrors.ctan.org/language/devanagari/velthuis/doc/generic/velthuis/manual.pdf#page=6)].
 
 Usage like:
 
@@ -162,5 +162,5 @@ Usage like:
 # RomDev.tec
 
 Alternative romanized Sanskrit input map (version 0.3)
-[11](https://github.com/somadeva/RomDev)
+[[11](https://github.com/somadeva/RomDev)]
 Thanks to Somadeva Vasudeva.
