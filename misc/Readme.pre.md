@@ -1,6 +1,6 @@
 # xetex-devanagari {version}
 
-Xetex-devanagari [^1][^2]
+Xetex-devanagari [^1] [^2]
 are input mappings (*.tec*)
 for convenient LaTeX typesetting
 of simple Unicode Devanagari (0900-097F [^3])
