@@ -1,7 +1,7 @@
 xetex-devanagari 0.6
 ====================
 
-Xetex-devanagari [1][2] are input mappings (*.tec*) for convenient LaTeX typesetting of simple Unicode Devanagari (0900-097F [3]) with the PDF-engine XeTeX [4].
+Xetex-devanagari [1] [2] are input mappings (*.tec*) for convenient LaTeX typesetting of simple Unicode Devanagari (0900-097F [3]) with the PDF-engine XeTeX [4].
 
 Their sources (*.map*) are to be compiled with the TECkit [5].
 
