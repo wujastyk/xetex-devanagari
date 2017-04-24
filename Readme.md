@@ -1,11 +1,13 @@
-xetex-devanagari 0.6
+xetex-devanagari 1.0
 ====================
 
 Xetex-devanagari [1] [2] are input mappings (*.tec*) for convenient LaTeX typesetting of simple Unicode Devanagari (0900-097F [3]) with the PDF-engine XeTeX [4].
 
 Their sources (*.map*) are to be compiled with the TECkit [5].
 
-The maps are maintained by Daniel Stender [6] please send hints and report problems to: <daniel@danielstender.com>.
+The maps were initially maintained by Daniel Stender [6], to whom many thanks! 
+Currently, from 2017, xetex-devanagari is maintained by me, Dominik Wujastyk.  By "maintained" I mean stored in GitHub. 
+Feel free to fork and develop further!
 
 Velthuis maps
 =============
@@ -50,7 +52,10 @@ Usage like:
     \documentclass{article}
 
     \usepackage{fontspec}
-    \setmainfont[Script=Devanagari,Mapping=velthuis-sanskrit]{Sanskrit 2003}
+    \setmainfont[
+         Script=Devanagari,
+         Mapping=velthuis-sanskrit]
+         {Sanskrit 2003}
 
     \catcode`\~=12
 
@@ -84,7 +89,10 @@ Usage like:
     \documentclass{article}
 
     \usepackage{fontspec}
-    \setmainfont[Script=Devanagari,Mapping=velthuis]{Nakula}
+    \setmainfont[
+        Script=Devanagari,
+        Mapping=velthuis]
+        {Nakula}
 
     \catcode`\~=12
 
@@ -129,7 +137,10 @@ Usage like:
     \documentclass[12pt]{article}
 
     \usepackage{fontspec}
-    \setmainfont[Script=Devanagari,Mapping=harvardkyoto]{Sanskrit 2003}
+    \setmainfont[
+        Script=Devanagari,
+        Mapping=harvardkyoto]
+        {Sanskrit 2003}
 
     \setlength\parindent{0pt}
 
@@ -171,7 +182,10 @@ Usage like:
     \documentclass{article}
 
     \usepackage{fontspec}
-    \setmainfont[Script=Devanagari,Mapping=iast]{Sanskrit 2003}
+    \setmainfont[
+        Script=Devanagari,
+        Mapping=iast]
+        {Sanskrit 2003}
 
     \setlength\parindent{0pt}
 
@@ -185,7 +199,30 @@ Usage like:
 RomDev.tec
 ==========
 
-Alternative romanized Sanskrit input map (0.3 [10]). Thanks to Dominik Wujastyk for suggestion, and Somadeva Vasudeva for permission.
+Alternative romanized Sanskrit input map (0.3 [10]). Thanks to Dominik Wujastyk for suggestion, 
+and Somadeva Vasudeva for permission.  The RomDev (Roman-to-Devanagari) input map has an advantage over
+the iast one, in that it deals correctly with conjunct consonants even in strings that are not typeset
+with a specifically Sanskrit Devanagari font.  Thus, in the following document: 
+
+    \documentclass{article}
+    \usepackage{polyglossia}
+
+    \setmainlanguage{sanskrit}
+
+    \newfontfamily\devanagarifont[
+    Mapping=RomDev,
+    Script=Devanagari]
+    {Sanskrit 2003} 
+
+    \begin{document}
+
+    शब्दादर्थं
+
+    śabdādarthaṃ
+
+    \end{document}
+
+The strings शब्दादर्थं and śabdādarthaṃ are both typeset correctly in Devanagari.  This is not the case with iast.
 
 Links
 =====
